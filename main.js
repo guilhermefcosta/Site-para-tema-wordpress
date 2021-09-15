@@ -35,10 +35,18 @@ function showIndex(indice) {
 
 function menuMob() {
     let m = document.querySelector('.header__nav__mobile')
-    
-    if (m.style.display === "block") {
-        m.style.display = "none"
-    } else {
+    let icon_h = document.querySelector('span.menu-bar')
+    let icon_close = document.querySelector('span.menu-close')
+
+    if (icon_h.style.display === "block") {
+        icon_h.style.display = "none"
+        icon_close.style.display = "block"
         m.style.display = "block"
+    } else {
+        icon_h.style.display = "block"
+        icon_close.style.display = "none"
+        m.style.display = "none"
     }
+
+
 }
