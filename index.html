@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Projeto</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo left">
+            <h2>LOGO</h2>
+        </div>
+
+        <nav class="header__nav__desktop right">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVIÇOS</a></li>
+                <li><a href="">PRODUTOS</a></li>
+                <li><a href="">RESERVAS</a></li>
+            </ul>
+        </nav>  
+        <nav class="header__nav__mobile right">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVIÇOS</a></li>
+                <li><a href="">PRODUTOS</a></li>
+                <li><a href="">RESERVAS</a></li>
+            </ul>
+        </nav>  
+        <div class="clear"></div>
+    </header>
+
+    <section class="email_lead">
+        <div class="email_lead_info">
+            <h3>Inscreva-se ^_^</h3>
+            <input type="email" name="email" placeholder="Insira seu e-mail..." />
+        </div>
+    </section>
+    
+    <section class="whoIam center">
+        <div class="whoIam__description left w50">
+            <h2>SOBRE MIM?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Sunt magni ipsa eos numquam porro, itaque tenetur, soluta dolor cum, 
+               molestiae dolores tempore maiores esse expedita deleniti
+               molestias ullam quos assumenda.
+               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Sunt magni ipsa eos numquam porro, itaque tenetur, soluta dolor cum, 
+               molestiae dolores tempore maiores esse expedita deleniti
+               molestias ullam quos assumenda.</p>
+                <br /><br />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Sunt magni ipsa eos numquam porro, itaque tenetur, soluta dolor cum, 
+               molestiae dolores tempore maiores esse expedita deleniti
+               molestias ullam quos assumenda.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Sunt magni ipsa eos numquam porro, itaque tenetur, soluta dolor cum, 
+               molestiae dolores tempore maiores esse expedita deleniti
+               molestias ullam quos assumenda.</p>
+
+        </div>
+
+        <div class="whoIam__photo right w50">
+            <img src="imagens/photo_usuario.jpg" alt="foto do usuario">
+        </div>
+
+        <div class="clear"></div>
+    </section>
+
+    <section class="props">
+        <div class="center">
+            <h2>Especialidades</h2>
+            <div class="cols">
+                <div><img src="imagens/digital.png" alt="" /></div>
+                <h3>Qualidade 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sunt magni ipsa eos numquam porro, itaque tenetur, soluta dolor cum, 
+                molestiae dolores tempore maiores esse expedita deleniti
+                molestias ullam quos assumenda.</p>
+            </div>
+            <div class="cols">
+                <div><img src="imagens/lampada.png" alt="" /></div>
+                <h3>Qualidade 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sunt magni ipsa eos numquam porro, itaque tenetur, soluta dolor cum, 
+                molestiae dolores tempore maiores esse expedita deleniti
+                molestias ullam quos assumenda.</p>
+            </div>
+            <div class="cols">
+                <div><img src="imagens/cadeado.png" alt="" /></div>
+                <h3>Qualidade 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sunt magni ipsa eos numquam porro, itaque tenetur, soluta dolor cum, 
+                molestiae dolores tempore maiores esse expedita deleniti
+                molestias ullam quos assumenda.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <section class="servicos">
+        
+        <div class="mySlides fade">
+            <!-- <div><i class="material-icons">pin</i></div> -->
+            <div><img src="imagens/serv1.jpg" alt=""></div>
+            <h3>Armazenagem</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt magni ipsa eos numquam porro, itaque tenetur, soluta dolor cum, 
+                    molestiae dolores tempore maiores esse expedita deleniti
+                    molestias ullam quos assumenda.</p>
+        </div>
+
+        
+        <div class="mySlides fade">
+            <!-- <div><i class="material-icons">no_encryption</i></div> -->
+            <div><img src="imagens/serv2.jpg" alt=""></div>
+            <h3>Cozinha</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt magni ipsa eos numquam porro, itaque tenetur, soluta dolor cum, 
+                    molestiae dolores tempore maiores esse expedita deleniti
+                    molestias ullam quos assumenda.</p>
+        </div>
+
+        <div class="mySlides fade">
+            <!-- <div><i class="material-icons">no_encryption</i></div> -->
+            <div><img src="imagens/serv3.jpg" alt=""></div>
+            <h3>Chefe de Cozinha</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt magni ipsa eos numquam porro, itaque tenetur, soluta dolor cum, 
+                    molestiae dolores tempore maiores esse expedita deleniti
+                    molestias ullam quos assumenda.</p>
+        </div>
+
+        <div class="mySlides fade">
+            <!-- <div><i class="material-icons">no_encryption</i></div> -->
+            <div><img src="imagens/serv4.jpg" alt=""></div>
+            <h3>Chaveiro</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt magni ipsa eos numquam porro, itaque tenetur, soluta dolor cum, 
+                    molestiae dolores tempore maiores esse expedita deleniti
+                    molestias ullam quos assumenda.</p>
+        </div>
+
+        <div class="servicos__pontos" style="text-align:center">
+            <span class="dot" onclick="showIndex(1)"></span> 
+            <span class="dot" onclick="showIndex(2)"></span> 
+            <span class="dot" onclick="showIndex(3)"></span> 
+            <span class="dot" onclick="showIndex(4)"></span> 
+        </div>        
+
+
+    </section>
+    
+    <section class="footer">
+        <p>Guilherme Ferreira Costa - Todos os direitos reservados &copy</p>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
