@@ -66,11 +66,39 @@ input::placeholder {
 .header__nav__desktop {
     font-size: 15px;
     position: relative;
-    top: 14px;
+    top: 26px;
 }
 
 .header__nav__mobile {
     display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 90px;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.89);
+    text-align: center;
+
+}
+
+.header__nav__mobile ul {
+    list-style-type: none;
+}
+
+.header__nav__mobile ul a {
+    text-decoration: none;
+}
+
+.header__nav__mobile ul li {
+    padding: 10px 0;
+}
+.header__nav__mobile ul li:hover {
+    background-color: rgb(231, 104, 0);
+}
+
+
+.header__nav__desktop {
+    display: block;
 }
 
 .header__nav__desktop ul {
@@ -85,11 +113,23 @@ input::placeholder {
 .header__nav__desktop ul li a {
     color: white;
     text-decoration: none;
-    transition: .8s color;
+    transition: .2s color;
 }
 
 .header__nav__desktop ul li a:hover {
     color: rgba(230, 160, 70, 0.952);
+}
+
+.material-icons.md-36 {
+    font-size: 40px;
+}
+
+.menu {
+    position: relative;
+    top: 16px;
+    color: white;
+    display: none !important;
+    cursor: pointer;
 }
 
 
@@ -257,10 +297,11 @@ input::placeholder {
     to {opacity: 1}
 }
 
-@media screen and ( max-width: 890px){
+@media screen and ( max-width: 890px ){
     .whoIam__description {
         float: none;
         width: 100%;
+        margin-bottom: 80px;
     }
 
     .whoIam__photo {
@@ -269,10 +310,20 @@ input::placeholder {
     }
     
     .whoIam__photo img {
-        display: block;
-        height: 550px;
-        margin: 0 auto;
+        height: 700px;
     }
 
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .header__nav__desktop {
+        display: none;
+    }
+
+    .menu {
+        display: block !important;
+    }
 
 }

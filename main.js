@@ -32,3 +32,13 @@ function showIndex(indice) {
     
     
 }
+
+function menuMob() {
+    let m = document.querySelector('.header__nav__mobile')
+    
+    if (m.style.display === "block") {
+        m.style.display = "none"
+    } else {
+        m.style.display = "block"
+    }
+}
