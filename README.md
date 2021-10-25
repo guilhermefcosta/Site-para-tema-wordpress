@@ -1,6 +1,7 @@
-## Apenas um site comercial
+## Site comercial para ser usado como tema PHP
 
- Pode se tornar um tema no Wordpress...
 
-: https://www.guilhermefcosta.github.io
+Vamos repartir o site e concluir o tema em breve.
+
+
 
